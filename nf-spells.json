@@ -1,157 +1,159 @@
 {
 	"spell": [
-        {
-            "name": "Freezing Snare",
-            "source": "Nightfell",
-            "level": 0,
-            "school": "I",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "components": {
-                "s": true,
-                "m": "(a silver coin)"
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Sorcerer",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Wizard",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Bard",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Warlock",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "entriesHigherLevel": [
-                {
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "Cold damage increases by {@dice 1d4} at 5th level ({@dice 2d4}), 11th level",
-                        "({@dice 3d4}), 17th level ({@dice 4d4})."
-                    ]
-                }
-            ],
-            "entries": [
-                "The caster drops a silver coin wherever they can see within 30 feet; the coin starts to swirl at incredible speed and shines, eventually floating in mid-air, 5 feet from the ground. The coin radiates a dim light in a 5 feet radius and emits a faint, continuous hiss. A creature ending its turn within the light radius or stepping into it for the first time in a turn must roll a Wisdom Saving Throw as any creature adjacent to the coin when the spell is cast. In case of failure, the creatures have Disadvantage on Attack and Initiative Rolls until the beginning of their next turn. Grabbing the coin immediately ends the spell, but only the caster can touch it without taking {@damage 1d4} cold damage. When the spell ends, the coin disappears and reappears in the hand of the caster."
-            ],
-            "page": 188,
-            "damageInflict": [
-                "cold"
-            ],
-            "savingThrow": [
-                "wisdom"
-            ],
-            "areaTags": [
-                "S"
-            ]
-        },
 		{
-            "name": "Globe of Eclipse",
-            "level": 0,
-            "school": "N",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 120
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "round",
-                        "amount": 1
-                    }
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Wizard",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Cleric",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Druid",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Sorcerer",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Warlock",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "entries": [
-                "The caster materialises an eldritch globe, designed as aneclipsing icy moon, in the space of a target creature within range. The caster can make a ranged spell attack with rays of necrotic energy spout from the globe. On a hit, the target {@damage 1d6} necrotic damage and has Disadvantage on its next SavingThrow until the beginning of the caster’s next turn.If the target is Undead, the spell automatically bypasses any resistance to necrotic damage."
-            ],
-            "source": "Nightfell",
-            "page": 189,
-            "components": {
-                "v": true,
-                "s": true
-            },
-            "entriesHigherLevel": [
-                {
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "Damage increases by {@dice 1d6} at 5th level ({@dice 2d6}), 11th level({@dice 3d6}) and 17th level ({@dice 4d6})."
-                    ]
-                }
-            ],
-            "damageInflict": [
-                "necrotic"
-            ],
-            "spellAttack": [
-                "R"
-            ]
-        },
+			"name": "Gelido tranello",
+			"source": "Nightfell",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "una moneta d'argento"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Il danno inflitto dall’incantesimo aumenta al 5° Livello ({@dice 2d4}), all’11° ({@dice 3d4}) e al 17° ({@dice 4d4})."
+					]
+				}
+			],
+			"entries": [
+				"L’incantatore lancia una moneta d’argento a terra, in un qualsiasi punto nel proprio campo visivo in un raggio di 30 feet; la moneta inizia a brillare e a roteare a velocità anormale, sollevandosi a mezz’aria a circa 5 feet da terra. ",
+				"La moneta emanerà una luce fioca in un raggio di 5 feet ed un debole sibilo fastidioso. Una creatura che finisce il suo turno, o entra per la prima volta entro il raggio di illuminazione della moneta deve superare un Tiro Salvezza su Saggezza, come anche ogni creatura adiacente alla moneta nel momento in cui l’incantesimo viene lanciato, o dispone di Svantaggio nel Tiro per Colpire e alle prove di Iniziativa fino all’inizio del loro turno seguente.",
+				"Una creatura può usare la propria azione per tentare di afferrare la moneta a mezz’aria, questa si rivelerà gelida, infliggendo {@dice 1d4} danni da freddo alla creatura, dopodiché l’incantesimo termina e la moneta ricompare in mano all’incantatore."
+			],
+			"page": 188,
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
 		{
-			"name": "Glyph of Mirithlen",
+			"name": "Globo dell’Eclissi",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"L’incantatore crea, nello spazio di una creatura entro gittata, un globo arcano che rappresenta una gelida luna in eclissi in grado di emettere fasci di energia oscura. ",
+				"Tramite il globo l’incantatore può effettuare un attacco a distanza per colpire la suddetta creatura bersaglio. Il bersaglio colpito subisce {@dice 1d6} danni necrotici e dispone di Svantaggio al prossimo Tiro Salvezza, fino alla fine del suo turno successivo. Se il bersaglio è un Non Morto, questo incantesimo ignora eventuali resistenze ai danni necrotici."
+			],
+			"source": "Nightfell",
+			"page": 189,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Il danno inflitto dall’incantesimo aumenta al 5° Livello ({@dice 2d6}), all’11° ({@dice 3d6}) e al 17° ({@dice 4d6})."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"spellAttack": [
+				"R"
+			]
+		},
+		{
+			"name": "Glifo di Mirithlen",
 			"level": 0,
 			"school": "A",
 			"time": [
@@ -196,7 +198,7 @@
 				]
 			},
 			"entries": [
-				"The caster moves their arms around, tracing the symbol of the Moon Goddess in mid-air. The caster gains resistance to damage dealt by spells or magic weapons until the end of their next turn."
+				"Le braccia dell’incantatore tracciano il simbolo della Dea Lunare nell’aria: fino alla fine del turno successivo dell’incantatore, ottiene resistenza ai danni inferti da incantesimi e da armi magiche."
 			],
 			"source": "Nightfell",
 			"page": 189,
@@ -206,7 +208,7 @@
 			}
 		},
 		{
-			"name": "Instill Moonlight",
+			"name": "Infusione di Luce Lunare",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -251,18 +253,20 @@
 				]
 			},
 			"entries": [
-				"The caster touches a small item (for example, a rock, a knife, a book). Whether the spell is cast indoors or outdoors, the item is infused with moonlight and casts bright light for 10-feet and dim light for another 10-feet. Covering the item with something non-translucent obstructs its radiance. If the spell is cast during a Lunar Phase corresponding to the caster’s Birthmoon, its range increases by 30-feet for the bright light and by other 30-feet for the dim one. Also, the duration increases to 4 hours. The spell ends if cast again or if ended by the caster with a free action (blowing it out as a candle). If aimed at an item wielded or worn by a hostile creature, said creature gets a Dexterity Saving Throw to avoid the spell."
+				"L’incantatore tocca un oggetto di piccole dimensioni (ad esempio un sasso, un coltello o un libro) e lo infonde di luce lunare (indipendentemente dal fatto che questo sia o meno toccato dalla vera luce lunare) così che possa proiettare luce bianca intensa per 10 feet e luce fioca per altri 10 feet. Coprire l’oggetto con qualcosa di opaco ne offusca la radiosità. ",
+				"Se l’incantesimo viene lanciato durante la fase lunare corrispondente alla Luna di Nascita dell’incantatore, il raggio d’azione sia della luce intensa che di quella fioca aumenta a 30 feet, e la Durata aumenta a 4 ore. L’incantatore può usare un’azione per spegnere la luce (soffiandovi sopra come si spegne una candela). Solo un oggetto per volta può venirne infuso. ",
+				"Se l’oggetto che si cerca di infondere è impugnato o indossato da una creatura ostile, quest’ultima può effettuare un Tiro Salvezza su Destrezza per negare l’effetto."
 			],
 			"source": "Nightfell",
 			"page": 189,
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "salt, or Portulaca root"
+				"m": "del sale o una radice di Portulaca"
 			}
 		},
 		{
-			"name": "Moonlit Captivation",
+			"name": "Seduzione del Chiaro di Luna",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -309,17 +313,18 @@
 				]
 			},
 			"entries": [
-				"The caster can cast this spell only when the moon can be seen in the sky or through windows and such, because they assimilate lunar magic to become more eloquent. Throughout the spell’s duration, the caster has Advantage on any Charisma check towards a non-hostile humanoid. When the spell ends, the target will not realize it was under a spell; actually, it might develop a potentially (at the GM’s discretion) unhealthy affection towards the caster."
+				"L’incantatore può lanciare questo incantesimo solo quando la Luna è visibile in cielo, anche attraverso finestre o simili, ampliando la propria eloquenza tramite l’energia lunare. ",
+				"Per la Durata dell’incantesimo, l’incantatore dispone di Vantaggio in tutte le prove di Carisma effettuate nei confronti di un Umanoide non ostile. Terminato l’incantesimo, l’interlocutore non sarà cosciente della malia ma potrebbe addirittura sviluppare una forma di ammirazione, più o meno morbosa, verso l’incantatore (a discrezione del NM) con possibili conseguenze spiacevoli."
 			],
 			"source": "Nightfell",
-			"page": 189,
+			"page": 190,
 			"components": {
 				"s": true,
-				"m": "an olive tree branch or a moonstone to hold in hand while casting the spell"
+				"m": "un ramo di ulivo o una pietra di luna da tenere in mano mentre si lancia l’incantesimo"
 			}
 		},
 		{
-			"name": "Silver Droplet",
+			"name": "Goccia d’Argento",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -345,22 +350,32 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
 					}
 				]
 			},
 			"entries": [
-				"The caster makes their hand gleam with white light and flings a tiny sphere of light at a creature they can see to transmit their brightness. The target must make a successful Dexterity Saving Throw or take {@damage 1d8} radiant damage and be surrounded by silvery light until the end of its next turn; as long as it is illuminated as such, the target cannot hide nor become {@condition invisible}, and it is revealed if already {@condition invisible}."
+				"La mano dell’incantatore rifulge argentea ed emette una minuscola sfera luminescente che può essere scagliata su una qualsiasi creatura nel proprio campo visivo in un raggio di 60 feet, trasmettendo a essa il proprio bagliore. ",
+				"Il bersaglio deve superare un Tiro Salvezza su Destrezza o subire {@dice 1d8} danni radiosi ed essere circondato da un alone di luce argentea fino alla fine del suo prossimo turno: fintanto che è così illuminato, il bersaglio non può nascondersi né diventare invisibile, o viene rivelato se era invisibile."
 			],
 			"source": "Nightfell",
-			"page": 190,
-			"conditionInflict": [
-				"invisible"
-			],
+			"page": 189,
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"The caster can radiate an additional sphere of light, either against the same target or another, at 5th level (2 spheres), another one at 11th level (3 spheres), and another one at 17th level (4 spheres)."
+						"L’incantatore può scagliare una sfera di luce aggiuntiva contro qualsiasi bersaglio entro il raggio e in vista al 5° Livello (2 sfere), all’11° (3 sfere) e al 17° (4 sfere)."
 					]
 				}
 			],
@@ -370,7 +385,7 @@
 			}
 		},
 		{
-			"name": "Trifold Goddess’s Amulet",
+			"name": "Amuleto della Dea Triplice",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -387,29 +402,43 @@
 			},
 			"duration": [
 				{
-					"type": "instant"
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
 						"source": "PHB"
 					}
 				]
 			},
 			"entries": [
-				"The caster draws strength from lunar energies to transmute the material component in a replica of Mirithlen’s own necklace. The item displays a flaunting amethyst and can be worn or held to have Advantage on the next Intelligence (Investigation), Wisdom (Insight) or Wisdom (Perception) checks, if based on sight. When all three checks are made, the effect ends even within duration. When the spell ends, the item turns back to its original look. Only one item at a time can be enchanted by the same caster."
+				"L’incantatore trae forza dalle energie lunari per trasformare l’oggetto in una replica della collana che Mirithlen portava al collo. ",
+				"Questo oggetto, ornato di una vistosa ametista, può essere indossato o tenuto in mano per la Durata dell’incantesimo, il portatore dispone di Vantaggio nelle prove di Intelligenza (Indagare), Saggezza (Intuizione) e Saggezza (Percezione), ma solo se basate sulla vista. ",
+				"Una volta effettuate tutte e tre queste prove, l’effetto termina prima dello scadere della durata dell’incantesimo, e l’oggetto torna al suo aspetto originario. È possibile creare più amuleti con questo incantsimo ma spiù recentemente manterrà l’effetto magico e quelli creati in precedenza diverranno semplici ninnoli."
 			],
 			"source": "Nightfell",
 			"page": 190,
 			"components": {
 				"s": true,
-				"m": "a necklace or some twine"
+				"m": "un filo di spago, una collana o qualunque tipo di cordicella di piccole dimensioni"
 			}
 		},
 		{
-			"name": "Trifold Goddess’s Gaze",
+			"name": "Sguardo della Dea Triplice",
 			"level": 0,
 			"school": "D",
 			"time": [
@@ -436,13 +465,21 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
 						"source": "PHB"
 					}
 				]
 			},
 			"entries": [
-				"A pale halo crowns the caster, while their eyes shine with white light. Their bond with lunar energy grants them accuracy and courage. The caster has Advantage on the next Attack Roll they make before the end of their turn."
+				"Una pallida aureola cinge il capo dell’incantatore e i suoi occhi brillano di luce bianca, infusi di accuratezza e audacia dal legame con l’energia lunare. L’incantatore dispone di Vantaggio sul suo prossimo Tiro per Colpire effettuato entro la fine del suo turno."
 			],
 			"source": "Nightfell",
 			"page": 190,
@@ -474,7 +511,19 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					}
 				]
@@ -525,14 +574,18 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
 						"source": "PHB"
 					}
 				]
 			},
 			"entries": [
-				"Durata: fino alla fine della fase lunare corrente",
-				"L’incantatore compie un rituale infuso con il potere della Luna: una volta terminato, può scegliere come bersaglio una creatura nel proprio campo visivo in un raggio di 3 metri. Il bersaglio gode dell’influsso della Luna fino alla fine della Fase Lunare Corrente, e ogni volta che deve effettuare un Tiro Salvezza può sommare {@dice 1d4} al risultato."
+				"Durata: fino alla fine della fase lunare corrente.",
+				"L’incantatore compie un rituale infuso con il potere della Luna: una volta terminato, può scegliere come bersaglio una creatura nel proprio campo visivo in un raggio di 10 feet. Il bersaglio gode dell’influsso della Luna fino alla fine della Fase Lunare Corrente, e ogni volta che deve effettuare un Tiro Salvezza può sommare {@dice 1d4} al risultato."
 			],
 			"source": "Nightfell",
 			"page": 190,
@@ -578,13 +631,18 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					}
 				]
 			},
 			"entries": [
-				"La luce lunare brilla in un’area del raggio di 6 metri dall’incantatore, rivelando oggetti e creature invisibili ed infliggendo loro {@dice 2d4} danni radiosi. Una creatura bersaglio che supera un Tiro Salvezza su Destrezza non viene rivelata e dimezza i danni. Non Morti, Immondi (fiend) e Aberrazioni falliscono automaticamente questo Tiro Salvezza."
+				"Moonlight shines over a 20 feet area, revealing {@condition invisible} items and creatures and inflicting them {@damage 2d4} radiant damage. ",
+				"Target creatures can make a Dexterity Saving Throw to avoid being revealed and to halve damage. Undead, Fiends and Aberrations automatically fail the Saving Throw."
 			],
 			"source": "Nightfell",
 			"page": 191,
@@ -628,7 +686,27 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
 						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
 						"source": "PHB"
 					}
 				]
@@ -638,6 +716,135 @@
 			],
 			"source": "Nightfell",
 			"page": 191,
+			"components": {
+				"v": true,
+				"s": true
+			}
+		},
+		{
+			"name": "Malia Lunare",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Un bersaglio, nel campo visivo dell’incantatore in un raggio di 30 feet, colpito da questo incantesimo deve superare un Tiro Salvezza su Saggezza o provare istantaneamente verso la Luna una fascinazione tale da rimanere Incapacitato ({@condition incapacitated}), immobilizzato con lo sguardo fisso su di essa, o verso dove ritiene che si trovi, nel caso non sia direttamente visibile. ",
+				"Alla fine di ogni suo turno e ogni volta che subisce danno, il bersaglio può ripetere il Tiro Salvezza, disponendo di Vantaggio nel caso abbia subito danni, in caso di successo l’effetto dell’incantesimo termina immediatamente."
+			],
+			"source": "Nightfell",
+			"page": 192,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "una piccola pietra bianca"
+			}
+		},
+		{
+			"name": "Orrore",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Chiunque abbia nel proprio campo visivo l’incantatore ne vedrà l’orrore interiore svelato dalla Luna. ",
+				"L’incantatore dispone di Vantaggio nelle prove di Carisma (Intimidire) (creature immuni alla condizione Spaventato non risentono di alcun effetto). ",
+				"L’incantatore può porre fine in qualsiasi momento all’incantesimo e scegliere una creatura bersaglio nel proprio campo visivo, che sia in grado di vederlo, la quale dovrà superare un Tiro Salvezza su Saggezza o divenire Spaventata per un minuto. Il bersaglio può ripetere il Tiro Salvezza alla fine di ogni suo turno e, in caso di successo, l’effetto dell’incantesimo termina immediatamente."
+			],
+			"source": "Nightfell",
+			"page": 192,
 			"components": {
 				"v": true,
 				"s": true
