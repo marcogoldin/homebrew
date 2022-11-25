@@ -1,0 +1,1590 @@
+{
+	"siteVersion": "1.170.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nightfell",
+				"abbreviation": "NF",
+				"full": "Nightfell",
+				"url": "",
+				"authors": [
+					"Angelo Peluso"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1669371025,
+		"dateLastModified": 1669371025
+	},
+	"spell": [
+		{
+			"name": "Amuleto della Dea Triplice",
+			"source": "Nightfell",
+			"page": 190,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "un filo di spago, una collana o qualunque tipo di cordicella di piccole dimensioni"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"L’incantatore trae forza dalle energie lunari per trasformare l’oggetto in una replica della collana che Mirithlen portava al collo. ",
+				"Questo oggetto, ornato di una vistosa ametista, può essere indossato o tenuto in mano per la Durata dell’incantesimo, il portatore dispone di Vantaggio nelle prove di Intelligenza (Indagare), Saggezza (Intuizione) e Saggezza (Percezione), ma solo se basate sulla vista. ",
+				"Una volta effettuate tutte e tre queste prove, l’effetto termina prima dello scadere della durata dell’incantesimo, e l’oggetto torna al suo aspetto originario. È possibile creare più amuleti con questo incantsimo ma spiù recentemente manterrà l’effetto magico e quelli creati in precedenza diverranno semplici ninnoli."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Bacio di Mirithlen",
+			"source": "Nightfell",
+			"page": 190,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Questo incantesimo può esser lanciato solo se toccati direttamente dalla luce lunare. Una creatura bersaglio toccata dall’incantatore recupera un numero di Punti Ferita a seconda della fase lunare corrente.",
+				"- Luna Nera: pari a {@dice 1d6} + il modificatore di Caratteristica da incantatore.",
+				"- Luna Ascendente o Discendente: pari a {@dice 1d8} + il modificatore di Caratteristica da incantatore.",
+				"- Luna Piena: pari a {@dice 1d10} + il modificatore di Caratteristica da incantatore.",
+				"Questo incantesimo non ha effetto sui Costrutti o sui Non Morti."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Se l’incantesimo è lanciato con uno slot incantesimo di 2° Livello o superiore, i Punti Ferita recuperati aumentano di una taglia di dado ({@dice 1d6 / 1d8 / 1d10}) per ciascun Livello superiore al 2°."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Benedizione della Luna (Rituale)",
+			"source": "Nightfell",
+			"page": 190,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "25 mo di incenso che viene consumato durante l’incantesimo",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"entries": [
+				"<b>Durata</b>: fino alla fine della fase lunare corrente.",
+				"L’incantatore compie un rituale infuso con il potere della Luna: una volta terminato, può scegliere come bersaglio una creatura nel proprio campo visivo in un raggio di 10 feet. Il bersaglio gode dell’influsso della Luna fino alla fine della Fase Lunare Corrente, e ogni volta che deve effettuare un Tiro Salvezza può sommare {@dice 1d4} al risultato."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"l’incantesimo ha effetto su un bersaglio aggiuntivo se lanciato con uno slot incantesimo di 2° Livello o superiore."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Canto del Risanamento Lunare (rituale)",
+			"source": "Nightfell",
+			"page": 193,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Questo incantesimo può esser lanciato solo se toccati direttamente dalla luce lunare. Ogni creatura in un Raggio di 20 feet può spendere 1 Dado Vita per recuperare un ammontare di Punti Ferita pari al risultato del dado sommato al modificatore della Caratteristica principale dell’incantatore."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"se l’incantesimo è lanciato utilizzando uno slot incantesimo di 3° Livello o superiore, il numero massimo dei Dadi Vita spendibili aumenta di 1 per ciascun Livello superiore al 2°."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Faro Lunare",
+			"source": "Nightfell",
+			"page": 191,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Moonlight shines over a 20 feet area, revealing {@condition invisible} items and creatures and inflicting them {@damage 2d4} radiant damage. ",
+				"Target creatures can make a Dexterity Saving Throw to avoid being revealed and to halve damage. Undead, Fiends and Aberrations automatically fail the Saving Throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"se l’incantesimo è lanciato con uno slot incantesimo di 2° Livello o superiore, l’incantesimo infligge {@dice 1d4} danni radiosi aggiuntivi per ciascun Livello superiore al 1°."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Fortuna della Luna",
+			"source": "Nightfell",
+			"page": 193,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "una coppa d’argento del valore di almeno 100 mo"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"L’incantatore richiama l’influsso benefico della Luna su una creatura bersaglio consenziente e la lascia bere dell’acqua dalla coppa d’argento: quando una creatura sotto l’effetto dell’incantesimo effettua un Tiro per Colpire, un Tiro Salvezza o una prova di Abilità e non è soddisfatta del risultato, può decidere di ripetere il tiro e scegliere il risultato che preferisce.",
+				"Una volta ripetuto il tiro, l’incantesimo termina immediatamente."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"quando l’incantesimo è lanciato utilizzando uno slot incantesimo di 4° Livello o superiore, l’incantatore può selezionare una creatura bersaglio aggiuntiva ogni 2 livelli oltre il 2° (2 bersagli al 4° Livello, 3 bersagli al 6° Livello, 4 bersagli all’8° Livello)."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Gelido tranello",
+			"source": "Nightfell",
+			"page": 188,
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "una moneta d'argento"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"L’incantatore lancia una moneta d’argento a terra, in un qualsiasi punto nel proprio campo visivo in un raggio di 30 feet; la moneta inizia a brillare e a roteare a velocità anormale, sollevandosi a mezz’aria a circa 5 feet da terra. ",
+				"La moneta emanerà una luce fioca in un raggio di 5 feet ed un debole sibilo fastidioso. Una creatura che finisce il suo turno, o entra per la prima volta entro il raggio di illuminazione della moneta deve superare un Tiro Salvezza su Saggezza, come anche ogni creatura adiacente alla moneta nel momento in cui l’incantesimo viene lanciato, o dispone di Svantaggio nel Tiro per Colpire e alle prove di Iniziativa fino all’inizio del loro turno seguente.",
+				"Una creatura può usare la propria azione per tentare di afferrare la moneta a mezz’aria, questa si rivelerà gelida, infliggendo {@dice 1d4} danni da freddo alla creatura, dopodiché l’incantesimo termina e la moneta ricompare in mano all’incantatore."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Il danno inflitto dall’incantesimo aumenta al 5° Livello ({@dice 2d4}), all’11° ({@dice 3d4}) e al 17° ({@dice 4d4})."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Glifo di Mirithlen",
+			"source": "Nightfell",
+			"page": 189,
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Le braccia dell’incantatore tracciano il simbolo della Dea Lunare nell’aria: fino alla fine del turno successivo dell’incantatore, ottiene resistenza ai danni inferti da incantesimi e da armi magiche."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Globo dell’Eclissi",
+			"source": "Nightfell",
+			"page": 189,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"L’incantatore crea, nello spazio di una creatura entro gittata, un globo arcano che rappresenta una gelida luna in eclissi in grado di emettere fasci di energia oscura. ",
+				"Tramite il globo l’incantatore può effettuare un attacco a distanza per colpire la suddetta creatura bersaglio. Il bersaglio colpito subisce {@dice 1d6} danni necrotici e dispone di Svantaggio al prossimo Tiro Salvezza, fino alla fine del suo turno successivo. Se il bersaglio è un Non Morto, questo incantesimo ignora eventuali resistenze ai danni necrotici."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Il danno inflitto dall’incantesimo aumenta al 5° Livello ({@dice 2d6}), all’11° ({@dice 3d6}) e al 17° ({@dice 4d6})."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Goccia d’Argento",
+			"source": "Nightfell",
+			"page": 189,
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"La mano dell’incantatore rifulge argentea ed emette una minuscola sfera luminescente che può essere scagliata su una qualsiasi creatura nel proprio campo visivo in un raggio di 60 feet, trasmettendo a essa il proprio bagliore. ",
+				"Il bersaglio deve superare un Tiro Salvezza su Destrezza o subire {@dice 1d8} danni radiosi ed essere circondato da un alone di luce argentea fino alla fine del suo prossimo turno: fintanto che è così illuminato, il bersaglio non può nascondersi né diventare invisibile, o viene rivelato se era invisibile."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"L’incantatore può scagliare una sfera di luce aggiuntiva contro qualsiasi bersaglio entro il raggio e in vista al 5° Livello (2 sfere), all’11° (3 sfere) e al 17° (4 sfere)."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Infusione di Luce Lunare",
+			"source": "Nightfell",
+			"page": 189,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "del sale o una radice di Portulaca"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"L’incantatore tocca un oggetto di piccole dimensioni (ad esempio un sasso, un coltello o un libro) e lo infonde di luce lunare (indipendentemente dal fatto che questo sia o meno toccato dalla vera luce lunare) così che possa proiettare luce bianca intensa per 10 feet e luce fioca per altri 10 feet. Coprire l’oggetto con qualcosa di opaco ne offusca la radiosità. ",
+				"Se l’incantesimo viene lanciato durante la fase lunare corrispondente alla Luna di Nascita dell’incantatore, il raggio d’azione sia della luce intensa che di quella fioca aumenta a 30 feet, e la Durata aumenta a 4 ore. L’incantatore può usare un’azione per spegnere la luce (soffiandovi sopra come si spegne una candela). Solo un oggetto per volta può venirne infuso. ",
+				"Se l’oggetto che si cerca di infondere è impugnato o indossato da una creatura ostile, quest’ultima può effettuare un Tiro Salvezza su Destrezza per negare l’effetto."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Lama delle Quattro Lune",
+			"source": "Nightfell",
+			"page": 193,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"L’incantatore afferra un raggio di luna e lo solidifica in una lama affilata: questa lama è un’arma semplice di cui l’incantatore è competente nell’utilizzo. L’arma infligge {@dice 2d6} danni radiosi e possiede le caratteristiche leggera (Light), accurata (Finesse) e lancio (Ranged) (Raggio 20/60 feet).",
+				"Se l’arma è lanciata o lasciata cadere scompare alla fine del turno e ricompare nella mano dell’incantatore all’inizio del suo turno seguente, ma nel caso l’incantatore non abbia mani libere, l’incantesimo ha termine.",
+				"Gli attacchi con quest’arma godono di un effetto speciale a seconda della fase lunare corrente:",
+				"- Luna Nera: l’arma infligge {@dice 4d6} danni necrotici anziché {@dice 2d6} danni radiosi.",
+				"- Luna Ascendente: l’arma infligge danni ad un bersaglio secondario, che si trovi entro 5 feet dal bersaglio primario, per un ammontare pari alla metà del danno inflitto al bersaglio primario.",
+				"- Luna Piena: per ogni attacco andato a segno, l’incantatore ottiene {@dice 2d6} Punti Ferita Temporanei e il bersaglio è Accecato fino alla fine del turno corrente.",
+				"- Luna Discendente: l’arma infligge {@dice 2d6} danni da freddo in luogo dei {@dice 2d6} danni radiosi; l’incantatore può spendere un’azione per lanciare l’arma in una linea retta lunga 60 feet e larga 5 centimetri, costringendo ogni bersaglio ivi compreso a superare un Tiro Salvezza su Destrezza o subire l’intero danno dell’arma (successo dimezza i danni)."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Quando l’incantesimo è lanciato utilizzando uno slot incantesimo di 3° Livello o superiore, l’arma infligge {@dice 1d6} danni aggiuntivi per ciascun Livello superiore al 2°."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Lucore",
+			"source": "Nightfell",
+			"page": 191,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"L’incantatore emana una tenue luminescenza mistica, disponendo di Vantaggio nelle prove di Carisma (Persuasione) e Svantaggio nelle prove di Destrezza (Furtività). L’incantatore può porre fine a questo incantesimo in qualsiasi momento."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Malia Lunare",
+			"source": "Nightfell",
+			"page": 192,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "una piccola pietra bianca"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Un bersaglio, nel campo visivo dell’incantatore in un raggio di 30 feet, colpito da questo incantesimo deve superare un Tiro Salvezza su Saggezza o provare istantaneamente verso la Luna una fascinazione tale da rimanere Incapacitato ({@condition incapacitated}), immobilizzato con lo sguardo fisso su di essa, o verso dove ritiene che si trovi, nel caso non sia direttamente visibile. ",
+				"Alla fine di ogni suo turno e ogni volta che subisce danno, il bersaglio può ripetere il Tiro Salvezza, disponendo di Vantaggio nel caso abbia subito danni, in caso di successo l’effetto dell’incantesimo termina immediatamente."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Manto Lunare",
+			"source": "Nightfell",
+			"page": 193,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "un ciondolo d’argento del valore di 50 mo"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Il bersaglio è protetto dal riflesso della luna e ottiene un bonus +1 alla CA e ai Tiri Salvezza. Se l’incantesimo viene lanciato durante la fase lunare corrispondente alla Luna di Nascita dell’incantatore, il bersaglio dell’incantesimo riduce di 1 tutti i danni taglienti, contundenti e perforanti subiti."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Quando l’incantesimo è lanciato utilizzando uno slot incantesimo di 3° Livello o superiore, i danni subiti vengono ridotti di 1 punto aggiuntivo per ciascun Livello superiore al 2° (massimo 5 al 6° Livello)."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Novilunio",
+			"source": "Nightfell",
+			"page": 193,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "una perla e un sacchetto di velluto nero"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"L’incantatore produce una sfera di penombra del raggio di 30 feet con sé stesso come epicentro (in caso di spazi ristretti, la penombra magica gira attorno agli angoli): nessuna fonte di luce naturale può illuminare l’area se non con luce fioca; luci magiche prodotte da incantesimi di Livello 2° o inferiore subiscono lo stesso effetto.",
+				"All’interno dell’area, la Fase Lunare corrente è sempre da considerarsi come Luna Nera.",
+				"Durante la Luna Nera, la penombra all’interno dell’area diventa un’oscurità magica che blocca ogni tipo di visione normale (Scurovisione compresa), ma non quella dell’incantatore. Luci naturali e magiche (fino al 2° Livello) non possono penetrare l’oscurità. ",
+				"Questo incantesimo non può essere lanciato durante la Fase di Luna Piena."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": []
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Orrore",
+			"source": "Nightfell",
+			"page": 192,
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"Chiunque abbia nel proprio campo visivo l’incantatore ne vedrà l’orrore interiore svelato dalla Luna. ",
+				"L’incantatore dispone di Vantaggio nelle prove di Carisma (Intimidire) (creature immuni alla condizione Spaventato non risentono di alcun effetto). ",
+				"L’incantatore può porre fine in qualsiasi momento all’incantesimo e scegliere una creatura bersaglio nel proprio campo visivo, che sia in grado di vederlo, la quale dovrà superare un Tiro Salvezza su Saggezza o divenire Spaventata per un minuto. Il bersaglio può ripetere il Tiro Salvezza alla fine di ogni suo turno e, in caso di successo, l’effetto dell’incantesimo termina immediatamente."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Pioggia Lunare",
+			"source": "Nightfell",
+			"page": 192,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"L’incantatore invoca su di sé un fascio di luce dall’alto: ogni creatura in un raggio di 10 feet deve superare un Tiro Salvezza su Destrezza o subire {@dice 1d6} danni radiosi e {@dice 1d6} danni perforanti (successo dimezza tutti i danni) e rimanere Accecato e Assordato fino all’inizio del turno dell’incantatore."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"se l’incantesimo è lanciato con uno slot incantesimo di 2° Livello o superiore, l’incantesimo infligge {@dice 1d6} danni radiosi aggiuntivi per ciascun Livello superiore al 1°."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Plenilunio",
+			"source": "Nightfell",
+			"page": 193,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "una perla e un sacchetto di seta bianca"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"L’incantatore produce una sfera di luce argentea del raggio di 30 feet con sé stesso come epicentro (in caso di spazi ristretti, la luce gira attorno agli angoli): la sfera è composta da luce intensa ed emana luce fioca per altri 30 feet; oscurità magiche prodotte da incantesimi di Livello 2° o inferiore non possono smorzare o annullare questa luce. ",
+				"All’interno dell’area, la fase lunare corrente è sempre da considerarsi come Luna Piena. ",
+				"Durante la Fase di Luna Piena, ogni altra fonte di luce naturale o magica (di Livello 2° o inferiore) entro 300 feet al momento del lancio dell’incantesimo viene immediatamente estinta. ",
+				"Questo incantesimo non può essere lanciato durante la Fase di Luna Nera."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Prezzo dei Ricordi",
+			"source": "Nightfell",
+			"page": 194,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "una moneta d’argento, che l’incantatore dona al bersaglio"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"L’incantatore dona una moneta carica dell’influsso della Luna a un bersaglio ignaro dello scambio che sta per fare. Il bersaglio deve superare un Tiro Salvezza sulla Saggezza o subire una dei seguenti effetti, a discrezione dell’incantatore: ",
+				"- il bersaglio dimentica uno dei suoi incantesimi preparati o conosciuti di 3° Livello o inferiore finché non completa un riposo lungo.",
+				"- il bersaglio non ricorda gli eventi degli ultimi {@dice 2d6} minuti, dei quali gli rimangono solo vaghe sensazioni ed emozioni (rabbia, paura, tristezza) legate a ciò che ormai non ricorda; esso risulterà tuttavia ricettivo a qualsiasi spiegazione plausibile che vada a colmarne il vuoto di memoria ",
+				"- l’incantatore riesce ad accedere ad uno specifico ricordo del bersaglio, e riesce a intravederne un’immagine mentale della durata di circa 6 secondi; l’immagine mentale è imperfetta nei dettagli minori ed è filtrata attraverso l’esperienza vissuta dal bersaglio, ma sarà sufficientemente affidabile negli elementi importanti; il bersaglio non dimentica il ricordo: questa opzione permette solo all’incantatore di conoscerlo ",
+				"Il bersaglio che ha fallito il Tiro Salvezza non si rende conto d’esser stato sotto l’effetto di questo incantesimo, ma può insospettirsi se non riceve una spiegazione plausibile al momentaneo disorientamento."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"se l’incantesimo è lanciato utilizzando uno slot incantesimo di 3° Livello o superiore, l’incantatore può selezionare una creatura bersaglio addizionale per ogni Livello di slot superiore al 2°, donando a ciascuna creatura una moneta d’argento."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Rune Lunari",
+			"source": "Nightfell",
+			"page": 192,
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "inchiostro del valore di 10 mo consumato dall’incantesimo",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 100
+					}
+				}
+			],
+			"entries": [
+				"L’incantatore verga un massimo di 100 parole su una pergamena o un’analoga superficie adatta alla scrittura, infondendovi la magia della Fase Lunare corrente. La scritta, una volta terminata, scompare e potrà essere rivelata solo dall’incantesimo Visione del Vero o dalla luce di una Luna che si trovi nella stessa Fase in cui si trovava quando è stata vergata la scritta."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Scala di Luna",
+			"source": "Nightfell",
+			"page": "192-193",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"La luce lunare si solidifica in forma di appiglio affinché l’incantatore, e solo lui, vi possa camminare sopra o arrampicarvisi. Questa solidificazione è da considerarsi terreno Accidentato."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"se l’incantesimo è lanciato con uno slot incantesimo di 3° Livello o superiore, la Durata viene estesa a 1 ora, e, se viene lanciato con uno slot di 5° Livello o superiore, non richiede più Concentrazione."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Seduzione del Chiaro di Luna",
+			"source": "Nightfell",
+			"page": 190,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "un ramo di ulivo o una pietra di luna da tenere in mano mentre si lancia l’incantesimo"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"L’incantatore può lanciare questo incantesimo solo quando la Luna è visibile in cielo, anche attraverso finestre o simili, ampliando la propria eloquenza tramite l’energia lunare. ",
+				"Per la Durata dell’incantesimo, l’incantatore dispone di Vantaggio in tutte le prove di Carisma effettuate nei confronti di un Umanoide non ostile. Terminato l’incantesimo, l’interlocutore non sarà cosciente della malia ma potrebbe addirittura sviluppare una forma di ammirazione, più o meno morbosa, verso l’incantatore (a discrezione del NM) con possibili conseguenze spiacevoli."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sguardo della Dea Triplice",
+			"source": "Nightfell",
+			"page": 190,
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Una pallida aureola cinge il capo dell’incantatore e i suoi occhi brillano di luce bianca, infusi di accuratezza e audacia dal legame con l’energia lunare. L’incantatore dispone di Vantaggio sul suo prossimo Tiro per Colpire effettuato entro la fine del suo turno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sudario del Novilunio",
+			"source": "Nightfell",
+			"page": 194,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "un dente di Non Morto e olii rituali del valore di 100 mo, che l’incantesimo consuma",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Un bersaglio consenziente assume un aspetto simile a quello di un Non Morto, e ottiene immunità a malattie, veleno e agli effetti negativi dei primi 5 Livelli di Indebolimento (il 6° causa la morte in ogni caso), non invecchia e non necessita di nutrirsi o respirare, e infine non può essere trasformato in un Non Morto da altri incantesimi o effetti simili. ",
+				"Il bersaglio viene rilevato come Non Morto da incantesimi ed effetti simili, e viene scambiato come tale dalle altre creature. Creature con intelligenza superiore a 3 possono effettuare una prova di Saggezza (Intuizione) per accorgersi dell’inganno."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
