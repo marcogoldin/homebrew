@@ -1,0 +1,106 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nightfell",
+				"abbreviation": "NF",
+				"full": "Nightfell",
+				"url": "",
+				"authors": [
+					"Angelo Peluso"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1643032355,
+		"dateLastModified": 1667938661
+	},
+	"race": [
+		{
+			"name": "Ejre - Primevi",
+			"source": "Nightfell",
+			"ability": [
+				{
+					"wis": 2,
+					"any": 1,
+                    "any": 1
+				}
+			],
+			"speed": 30,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Runico Primordiale": true
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"la durata della loro vita è uguale agli altri Umani, sebbene prima dell’Ultimo Sole vivessero oltre il secolo"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"pressoché l’intera popolazione fa parte degli Apostati di Rahidra, conservando usanze e tradizioni e un forte legame verso la flebile luce dei Primordiali, e per essa sono disposti a combattere strenuamente. Alcuni di essi tendono verso la neutralità, schierandosi a favore di ciò che sembra loro più giusto, a prescindere dal credo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"in quanto umani, gli Ejre sono di taglia Media."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Passo Lungo",
+					"entries": [
+						"la velocità del personaggio aumenta a 12 m (40 feet) se indossa solo armature leggere o non indossa armature."
+					]
+				},
+                {
+					"type": "entries",
+					"name": "Legame con la Vita",
+					"entries": [
+						"grazie alla particolare connessione con le entità Primordiali di cui godono, gli Ejre dispongono di Vantaggio nei Tiri Salvezza contro veleno, pietrificazione ed effetti di morte immediata."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fonte di Potere Innata:",
+					"entries": [
+						"un qualsiasi personaggio Ejre conosce un Trucchetto scelto dalla lista di incantesimi del Druido (Saggezza è la caratteristica da incantatore per questo trucchetto)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cultura Tribale",
+					"entries": [
+						"un Primevo possiede Competenza in due abilità a scelta fra Addestrare Animali, Natura e Sopravvivenza."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Addestramento nelle Armi Selvagge",
+					"entries": [
+						"un Ejre possiede Competenza nelle asce, nei giavellotti, nelle lance e negli archi corti; nelle sue mani queste armi infliggono 1 danno aggiuntivo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"gli Ejre possono parlare, leggere e scrivere in Comune, e sanno leggere e scrivere il Runico Primordiale"
+					]
+				}
+			]
+		}
+	]
+}

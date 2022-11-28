@@ -30,8 +30,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"elvish": true,
-					"orc": true
+					"Sussurro degli Echi": true
 				}
 			],
 			"size": [
@@ -68,13 +67,6 @@
 				},
 				{
 					"type": "entries",
-					"name": "Language",
-					"entries": [
-						"gli Anireth sono in grado di parlare, leggere e scrivere in Comune; sono inoltre in grado di capire e parlare il Sussurro degli Echi."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Traslazione Spettrale",
 					"entries": [
 						"a partire dal 1° livello, un Anireth può spendere un’azione e muoversi della propria velocità traslando dentro e fuori dal piano etereo; durante questo movimento, gli attacchi di opportunità contro il personaggio dispongono di Svantaggio, il personaggio ignora il terreno difficile e può attraversare lo spazio occupato da altre creature o oggetti solidi (ma non può terminare il suo movimento in uno spazio occupato); una volta utilizzato questo privilegio, un Anireth deve completare un riposo breve o lungo prima di poterlo utilizzare di nuovo."
@@ -99,6 +91,13 @@
 					"name": "Sensibilità alle Armi Tetre",
 					"entries": [
 						"il legame degli Anireth con Ènferun li rende suscettibili ai colpi inferti dalle armi con proprietà Arma Tetra, come fossero Immondi (gli attacchi portati nei loro confronti sono da considerarsi magici e dispongono di Vantaggio); questo, comunque, non impedisce agli Anireth di brandirle in combattimento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"gli Anireth sono in grado di parlare, leggere e scrivere in Comune; sono inoltre in grado di capire e parlare il Sussurro degli Echi."
 					]
 				}
 			]
