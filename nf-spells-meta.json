@@ -1,5 +1,4 @@
 {
-	"siteVersion": "1.170.0",
 	"_meta": {
 		"sources": [
 			{
@@ -1511,7 +1510,7 @@
 				}
 			],
 			"entries": [
-				"Una pallida aureola cinge il capo dell’incantatore e i suoi occhi brillano di luce bianca, infusi di accuratezza e audacia dal legame con l’energia lunare. L’incantatore dispone di Vantaggio sul suo prossimo Tiro per Colpire effettuato entro la fine del suo turno."
+				"Una pallida aureola cinge il capo dell’incantatore e i suoi occhi brillano di luce bianca, infusi di accuratezza e audacia dal legame con l’energia lunare. L’incantatore dispone di Vantaggio sul suo prossimo Tiro per Colpire effettuato entro la fine del suo prossimo turno."
 			],
 			"classes": {
 				"fromClassList": [
