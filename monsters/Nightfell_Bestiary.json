@@ -1,0 +1,288 @@
+{
+	"siteVersion": "1.171.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nightfell",
+				"abbreviation": "NF",
+				"full": "Nightfell Bestiary",
+				"url": "",
+				"authors": [
+					"Angelo Peluso"
+				],
+				"convertedBy": [
+					"bakkoh"
+				]
+			}
+		],
+		"dateAdded": 1670769161,
+		"dateLastModified": 1670769161
+	},
+	"monster": [
+		{
+			"name": "Glacier Skeleton",
+			"source": "Nightfell",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"pieces of armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 6",
+				"average": 15
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 16,
+			"int": 5,
+			"wis": 8,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "if dealt by non-Grim weapons"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning",
+				"fire"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands all the languages he knew in life but can't speak them."
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Vile Foe",
+					"entries": [
+						"When a living creature that is not {@condition blinded} is in front of the skeleton within 60 feet of them, that creature must make a {@dc 10} Wisdom saving throw, losing 1 Soul Point on a failed save. If that creature sees again the same or other Glacier Skeletons, it is immune to the Vile Foe effect for the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"A Glacier Skeleton makes two melee attacks."
+					]
+				},
+				{
+					"name": "Axe",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) slashing damage."
+					]
+				},
+				{
+					"name": "Axe thrown",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, reach 20/60 ft., one target. {@h}3 ({@damage 1d6}) slashing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Preserver by the eternal frost of Iùrmen’s glaciers, these are the corpses of those who died during the wars that followed the Last Sun. Corpses that now raise from their graves of snow and darkness."
+				]
+			},
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/glacier-skeleton.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Mazzamurello",
+			"source": "Nightfell",
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d6",
+				"average": 14
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 8,
+			"wis": 9,
+			"cha": 12,
+			"save": {
+				"dex": "+4"
+			},
+			"skill": {
+				"stealth": "+4",
+				"sleight of hand": "+4"
+			},
+			"senses": [
+				"darkvision 20 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Wild Jargon"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Mazzamurello's spellcasting ability is Charisma  (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The Mazzamurello can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell hellish rebuke}",
+							"{@spell magic missile}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The Mazzamurello has advantage on an attack roll against a creature if at least one of the Mazzamurello's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Mazzamurello’s has advantage on saving throws against spells or other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Club",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4+2}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "hellish rebuke (1/day)",
+					"entries": [
+						"in response to being damaged by a creature within 60 feet of you that you can see: ",
+						"You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes ({@damage 2d10}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"These faelings look like big lizards that walk on two legs, and show off, as if they were ornaments, tools of various kinds gathered who knows how. In the eras before the long night, these creatures used to live near the inhabited centers where they disturbed the population with their funny noises. ",
+					"Now, these faelings have developed a more reserved behavior: they live in small groups in mountain areas, or near swamps or other waterways, and exploit their cunning to rob lonely wayfarers.",
+					"Thieves of the way:",
+					"The Mazzamurellos are used to control the roads that pass through difficult and rugged terrain such as mountain passes, wades, and marshy walkways. These evil faelings wait for travelers to find themselves in difficulty and exploit their tools to cause small landslides or to cover directions and tracks. In addition, they use their ability to emit and imitate sounds to further mislead the unfortunate, tricking them into taking the most difficult of routes for fear of some unknown danger on the path that is actually safer to travel. ",
+					"When the exhausted and lost travelers stop to seek rest, the Mazzamurellos advance silently to stun or kill them with their small stone hammers, and then take all their possessions.",
+					"Collectors:",
+					"The Mazzamurellos seem particularly attracted by the weapons and objects of the wayfarers, which they then use to commit other robberies. It is said that by following a Mazzamurello secretly you can find the place where it hides its treasures, ranging from the most common objects to the most bizarre; from the most useless to the most precious."
+				]
+			},
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/mazzamurello.png",
+			"traitTags": [
+				"Magic Resistance",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		}
+	]
+}

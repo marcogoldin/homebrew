@@ -3,3 +3,9 @@ Melee Attack
 
 Ranged Attack
 {@atk rw} {@hit 2} to hit, reach 20/60 ft., one target. {@h}3 ({@damage 1d6}) slashing damage.
+
+SPELLCASTING
+The archmage is an 18th-level spellcaster. 
+Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). 
+The archmage can cast {@spell disguise self} and {@spell invisibility} at will and has the following wizard spells prepared:
+
