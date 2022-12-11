@@ -4,7 +4,7 @@
 		"sources": [
 			{
 				"json": "Nightfell",
-				"abbreviation": "NF",
+				"abbreviation": "NFB",
 				"full": "Nightfell Bestiary",
 				"url": "",
 				"authors": [
@@ -15,8 +15,8 @@
 				]
 			}
 		],
-		"dateAdded": 1670772145,
-		"dateLastModified": 1670772145
+		"dateAdded": 1670774447,
+		"dateLastModified": 1670774447
 	},
 	"monster": [
 		{
@@ -396,6 +396,143 @@
 			],
 			"damageTags": [
 				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Sbilf",
+			"source": "Nightfell",
+			"page": 102,
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "8d4",
+				"average": 20
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 10,
+			"int": 16,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+3",
+				"sleight of hand": "+5",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Wild Jargon"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Sblif ’s innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell chill touch}",
+						"{@spell mage hand}",
+						"{@spell minor illusion}",
+						"{@spell pass without trace}",
+						"{@spell prestidigitation}",
+						"{@spell produce flame}",
+						"{@spell vicious mockery}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell invisibility}"
+						],
+						"1e": [
+							"{@spell vampiric touch}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Sblif has advantage on saving throws against spells and other magical effects"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Necrotic Dagger",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 feet, one target. {@h}5 ({@damage 1d4+3}) slashing damage. If the target is a creature, it must make a {@dc 12} Constitution saving throw, taking additional 7 ({@damage 2d6}) necrotic damage on a failed save, or half as much damage on a successful one"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The Sblif can take the Disengage or Hide Action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"In past eras, the Sbilves were among the most well-known and loved faelings by ordinary people. Their good-natured character, although burlesque, and their connection with nature made them the protagonists of many popular fables and legends. With the advent of the eternal night and the corruption of the world, these spirits were completely consumed by iniquity. ",
+					"Elusive and lethal. Today's Sbilves have stripped themselves of the good-natured appearance of the past: once, these creatures wore brightly colored clothes and funny red pointed hats, while today they are covered only by worn rags and their skin has taken on dark and gray shades demonstrating their complete fall into corruption. However, their ability to disappear and move without being noticed has not changed: it makes them quite dangerous now that they wander around armed with bone fragments that the faelings infuse with their inner darkness to turn them into dangerous cursed weapons. ",
+					"From protectors to destroyers. If their ancestors protected the fields, now these faelings burn them in the night or find ways to make plants and animals sick. Similarly, if their ancestors had jovial relationships with humans, the Sbilves of the Lunar Age take every opportunity to torture and kill them. Sbilves move in small groups and are virtually impossible to spot before they attack."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/sbilf-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/sbilf.png",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"Y"
+			],
+			"spellcastingTags": [
+				"O"
 			],
 			"miscTags": [
 				"MW"
