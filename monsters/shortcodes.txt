@@ -5,6 +5,10 @@ Melee Attack
 {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) slashing damage.
 {@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6+1}) bludgeoning damage. On a hit, target creature must make a {@dc 12} Wisdom Saving throw. On a failed save it loses {@h}1 ({@damage 1d2}) Soul Points.
 
+{@atk mw} {@hit 5} to hit, reach 5 feet, one target. {@h}5 ({@damage 1d4+3}) slashing damage. If the target is a creature, it
+must make a {@dc 12} Constitution saving throw, taking additional 7 ({@damage 2d6}) necrotic damage on a failed save, or half as much damage on
+a successful one
+
 
 Ranged Attack
 {@atk rw} {@hit 2} to hit, reach 20/60 ft., one target. {@h}3 ({@damage 1d6}) slashing damage.
