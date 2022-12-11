@@ -15,8 +15,8 @@
 				]
 			}
 		],
-		"dateAdded": 1670769282,
-		"dateLastModified": 1670769282
+		"dateAdded": 1670772145,
+		"dateLastModified": 1670772145
 	},
 	"monster": [
 		{
@@ -282,6 +282,123 @@
 				"MW",
 				"RNG",
 				"RW"
+			]
+		},
+		{
+			"name": "Rotten Arisen",
+			"source": "Nightfell",
+			"page": 17,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 9",
+				"average": 22
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 13,
+			"dex": 8,
+			"con": 16,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"save": {
+				"con": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"preNote": "(only during ascending moon)",
+					"note": "from weapons that aren’t grim weapons"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"The languages it knew in life but can’t speak"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Rotten Arisen’s favored terrain is graveyards/mounds."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the Rotten Arisen to 0 Hit Points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the Rotten Arisen drops to 1 hit point instead"
+					]
+				},
+				{
+					"name": "Vile Foe",
+					"entries": [
+						"When a living creature that isn’t {@condition blinded} is in front of the Rotten Arisen within 60 feet of it, that creature must make a {@dc 12} Wisdom saving throw, losing 1 Soul Points on a failed save. If that creature sees again the same or other Rotten Arisen, it’s immune to the Vile Foe effect Str the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6+1}) bludgeoning damage. On a hit, target creature must make a {@dc 12} Wisdom Saving throw. On a failed save it loses {@h}1 ({@damage 1d2}) Soul Points."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/rotten-arisen-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/rotten-arisen.png",
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
 			]
 		}
 	]
