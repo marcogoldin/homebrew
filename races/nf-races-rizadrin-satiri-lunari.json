@@ -1,0 +1,99 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nightfell",
+				"abbreviation": "NF",
+				"full": "Nightfell",
+				"url": "",
+				"authors": [
+					"Angelo Peluso"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1643032355,
+		"dateLastModified": 1667938661
+	},
+	"race": [
+		{
+			"name": "Rizadrin - Satiri Lunari",
+			"source": "Nightfell",
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"speed": 35,
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Lingua della Pietra": true
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"i Satiri sono particolarmente longevi in virtù del loro legame con le energie primordiali; la corruzione del mondo ha portato alcune etnie di Satiri all’estinzione, al contempo abbassando l’aspettativa di vita dei Rizadrin, che al tempo presente si aggira attorno ai 200 anni."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"sebbene poco inclini all’emotività e nell’empatia, ciò non vuole assolutamente dire che i Rizadrin siano propensi all’egoismo o al sopruso, e ancora più raramente alla pura malvagità; tendono, inoltre, verso la legalità, aderendo preferibilmente a religioni o ideologie dai dettami incontestabili e definiti, come ad esempio il Culto Lunare e la sua ferma presa di posizione nei confronti del male."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"sono Umanoidi di taglia Media, sebbene siano generalmente alti; i maschi raggiungono facilmente 1,90 metri di altezza."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"i secoli trascorsi nel sottosuolo hanno garantito a questa specie un’ottima capacità percettiva al buio; dispongono di Scurovisione fino a 60 feet (18 metri)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pieni di risorse",
+					"entries": [
+						"la fuga dal sottosuolo e l’adattamento al mondo di superficie ha imposto un duro tributo ai Rizadrin, il che li ha resi resistenti e pronti a qualsiasi avversità o insidia; hanno competenza nelle abilità Intuizione e Sopravvivenza."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Energia Primeva",
+					"entries": [
+						"un Rizadrin conserva dentro di sé un frammento dell’energia primitiva che ha plasmato il mondo; questa eredità arcana gli permette di richiamare a sé quell’energia sotto forma di fasci di luce verde; chi usa questo potere può usare un’azione per trasferire questa energia a un’arma da mischia o da lancio bersaglio; l’arma bersaglio è considerata magica, e ottiene un bonus al danno pari al modificatore di Carisma del Rizadrin per la durata di 1 minuto; un’arma lanciata o lasciata cadere può essere richiamata spendendo un’azione bonus, ma solo se si trova entro un raggio di 18 metri; una volta utilizzato questo privilegio, un Rizadrin deve completare un riposo lungo prima di poterlo utilizzare di nuovo; questo privilegio non è applicabile a un’arma con proprietà Arma Tetra."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vocazione lunare",
+					"entries": [
+						"ammaliati dalla radiosa bellezza della luna, i Rizadrin, anche coloro che non aderiscono al Culto Lunare, percepiscono il suo influsso benefico; i Satiri Lunari possono lanciare il trucchetto di Divinazione sguardo della dea triplice; una volta utilizzato questo privilegio, un Rizadrin deve completare un riposo lungo prima di poterlo utilizzare di nuovo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"possono parlare, leggere e scrivere in Comune e nella Lingua della Pietra."
+					]
+				}
+			]
+		}
+	]
+}
