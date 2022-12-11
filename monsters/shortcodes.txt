@@ -1,0 +1,16 @@
+Vile Foe
+When a living creature that is not {@condition blinded} is in front of the skeleton within 60 feet of them, that creature must make a {@dc 10} Wisdom saving throw, losing 1 Soul Point on a failed save. If that creature sees again the same or other Glacier Skeletons, it is immune to the Vile Foe effect for the next 24 hours.
+
+Melee Attack
+{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) slashing damage.
+{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6+1}) bludgeoning damage. On a hit, target creature must make a {@dc 12} Wisdom Saving throw. On a failed save it loses {@h}1 ({@damage 1d2}) Soul Points.
+
+
+Ranged Attack
+{@atk rw} {@hit 2} to hit, reach 20/60 ft., one target. {@h}3 ({@damage 1d6}) slashing damage.
+
+SPELLCASTING
+The archmage is an 18th-level spellcaster. 
+Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). 
+The archmage can cast {@spell disguise self} and {@spell invisibility} at will and has the following wizard spells prepared:
+
