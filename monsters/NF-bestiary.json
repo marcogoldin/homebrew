@@ -653,6 +653,166 @@
 			"environment": [
 				"forest"
 			]
+		},
+		{
+			"name": "Bafardejo",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"source": "NightfellBestiary",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 17,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"passive": 13,
+			"cr": "1/2",
+			"fluff": {
+				"entries": [
+					"\"If you're not careful, the Bafardejo will catch you!\"",
+					"popular saying to scare children",
+					"There are many rumors about the Bafardejo. Unfortunately, there are few that can be confirmed. Spotting a Bafardejo is extremely difficult, and many argue that these faelings are endowed with the gift of invisibility. With the advent of darkness, Bafardejo's pranks have gone from being mere spiteful to unscrupulous acts that can seriously endanger people's lives. Luckily, the Bafardejo is small in size and rarely moves in groups. Once you've found the right remedy, driving it out of a place can be simple.",
+					"Dangerous jokes:",
+					"The Bafardejo seems particularly intent on doing everything he can to annoy other creatures. Several witnesses say that they woke up in the night with one of these creatures crouching on their chest, intent on plugging the mouth and nose of the unfortunate with their hooked hands. In other cases, the appearance of a Bafardejo is followed by the disappearance of food, the escape of domestic or farm animals and, in the worst cases, the burning of houses. The Bafardejo seems to have a certain aversion, or a malignant predisposition, towards representatives of all religions. There are many cases in which the creature is caught interrupting and disturbing functions and rituals with obscene noises and desecrating mischief. The only ones who seem immune to the attentions of Bafardejo are newborns. There are even testimonies of parents who have seen the creature watch over their infant during the night, and cases in which the faeling has attacked babies are never heard, and the same for the houses in which they dwell.",
+					"Silent and unpredictable: ",
+					"The worst problem when dealing with a Bafardejo is its ability to go unnoticed. The creature is very adept at approaching and entering villages and dwellings without being seen, and even once the presence of a pest has been ascertained, flushing it out is no small feat. Ironically, a Bafardejo is more easily traceable in those conditions that should usually facilitate stealth. While inside an illuminated house it is almost invisible, the best place to spot a Bafardejo is the undergrowth through which it moves from settlement to settlement, and from home to home; the best time is when the clouds obscure the Moon, and everything becomes dark, and the faeling comes out into the open.",
+					"CUSTOMS",
+					"Place",
+					"The Bafardejo rests in the low vegetation and haunts homes or places of worship.",
+					"Time",
+					"The Bafardejo usually comes out in the darkest hours. ",
+					"Gesture",
+					"The Bafardejo is particularly attracted to rituals of any kind, or to people who live alone. The creature is especially afraid of light sources, which can keep it away or scare it."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/bafardejo-image.png"
+						}
+					}
+				]
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"understands Common but can speak only using the Mimicry feature"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"dex": "+3"
+			},
+			"skill": {
+				"stealth": "+5",
+				"deception": "+4",
+				"perception": "+3",
+				"sleight of hand": "+5"
+			},
+			"conditionImmune": [
+				"charmed"
+			],
+			"trait": [
+				{
+					"name": "Blessing of the Dark",
+					"entries": [
+						"The Bafardejo can normally see in darkness, both magical and non-magical, and can’t be {@condition charmed}."
+					]
+				},
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Bafardejo’s favored terrain is cultivated fields."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Bafardejo has advantage on saving throws against spells or other magical effects."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The Bafardejo can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations if it succeeds on a {@dc 14} Wisdom (Insight) check."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"bonus": [
+				{
+					"name": "Stealth of Darkness",
+					"entries": [
+						"The Bafardejo can take the Hide Action as a bonus action, and it has advantage while hiding in dim light or darkness."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Innate Spellcasting. The Bafardejo’s spellcasting ability is Charisma  (spell save {@dc 12}, {@hit 4} to spell attack). The Bafardejo can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell minor illusion}",
+						"{@spell ray of frost}",
+						"{@spell vicious mockery}"
+					],
+					"daily": {
+						"3": [
+							"{@spell disguise self}"
+						],
+						"2e": [
+							"{@spell fog cloud}",
+							"{@spell sleep}"
+						],
+						"1e": [
+							"{@spell invisibility}",
+							"{@spell misty step}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"C",
+				"Y"
+			],
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/bafardejo.png"
 		}
 	]
 }
