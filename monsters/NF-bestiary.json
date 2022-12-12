@@ -537,6 +537,122 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Animated Bramble",
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"source": "NightfellBestiary",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 14,
+			"int": 6,
+			"wis": 10,
+			"cha": 3,
+			"passive": 12,
+			"cr": "1/2",
+			"page": 142,
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"skill": {
+				"perception": "+2"
+			},
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"frightened"
+			],
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"Until it makes an attack roll, the Animated Bramble is indistinguishable from a normal bush."
+					]
+				},
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Animated Bramble’s favored terrain is forest."
+					]
+				},
+				{
+					"name": "Poison Resistance",
+					"entries": [
+						"The Animated Bramble has advantage on saving throws against poison."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"action": [
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 feet, one target. {@h}8 ({@damage 2d6+2}) bludgeoning damage. If the target is a creature Large or smaller, that creature is {@condition grappled} (Escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}. At the start of each of its next turn, a {@condition restrained} target takes additional 4 ({@damage 1d8}) bludgeoning damage. The Animated Bramble can constrict up to 3 creatures at the same time."
+					]
+				},
+				{
+					"name": "Poisonous Spores {@recharge 6}",
+					"entries": [
+						"The Animated Bramble emits poisonous spores in a 20-foot-diameter sphere centered on it. Each creature in that area must make a {@dc 13} Constitution saving throw, taking 9 poison damage and being {@condition poisoned} for 1 minute on a failed save, or half as much damage and no other ill effects on a successful one. At the end of each of its next turns, an affected creature can make another Constitution saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/animated-bramble.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/animated-bramble-image.jpg"
+						}
+					}
+				]
+			},
+			"environment": [
+				"forest"
+			]
 		}
 	]
 }

@@ -1,5 +1,11 @@
+----------------------------------------------------------------
+
+TRAITS
+
 Vile Foe
 When a living creature that is not {@condition blinded} is in front of the skeleton within 60 feet of them, that creature must make a {@dc 10} Wisdom saving throw, losing 1 Soul Point on a failed save. If that creature sees again the same or other Glacier Skeletons, it is immune to the Vile Foe effect for the next 24 hours.
+
+----------------------------------------------------------------
 
 Melee Attack
 {@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) slashing damage.
@@ -9,9 +15,28 @@ Melee Attack
 must make a {@dc 12} Constitution saving throw, taking additional 7 ({@damage 2d6}) necrotic damage on a failed save, or half as much damage on
 a successful one
 
+{@atk mw} {@hit 4} to hit, reach 10 feet, one target. {@h}8 ({@damage 2d6+2}) bludgeoning damage. 
+If the target is a creature Large or smaller, that creature is {@condition grappled} (Escape {@dc 13}). 
+Until this grapple ends, the target is {@condition restrained}. 
+At the start of each of its next turn, a restrained target takes additional 4 (1d8) bludgeoning damage.
+The Animated Bramble can constrict up to 3 creatures at the same time.
+
+abilità con ricarica
+Entangling Plants {@recharge 5}
+
+The Animated Bramble emits poisonous spores in a 20-foot-diameter sphere centered on it. Each creature in
+that area must make a {@dc 13} Constitution saving throw, taking 9
+poison damage and being {@condition poisoned} for 1 minute on a failed save, or
+half as much damage and no other ill effects on a successful one. At
+the end of each of its next turns, an affected creature can make another
+Constitution saving throw, ending the effect on itself on a success.
+
+----------------------------------------------------------------
 
 Ranged Attack
 {@atk rw} {@hit 2} to hit, reach 20/60 ft., one target. {@h}3 ({@damage 1d6}) slashing damage.
+
+----------------------------------------------------------------
 
 SPELLCASTING
 The archmage is an 18th-level spellcaster. 
