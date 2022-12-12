@@ -813,7 +813,23 @@
 				"C",
 				"Y"
 			],
-			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/bafardejo.png"
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/bafardejo.png",
+			"action": [
+				{
+					"name": "Skullstaff",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 feet, one creature. {@h}6 ({@damage 1d6+3}) bludgeoning damage.",
+						"On a hit the sockets of the skulls glow of a greenish light and some tiny ghosts get in the target’s head. The target must make a {@dc 12} Wisdom saving throw, taking 7 ({@damage 2d4}) psychic damage on a failed save or half as much damage on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			]
 		}
 	]
 }
